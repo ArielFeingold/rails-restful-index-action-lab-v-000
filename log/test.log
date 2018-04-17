@@ -907,6 +907,7 @@ Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.2ms)
   [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["first_name", "Daenerys"], ["last_name", "Targaryen"], ["created_at", "2018-04-17 18:40:41.220852"], ["updated_at", "2018-04-17 18:40:41.220852"]]
   [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
   [1m[35m (0.2ms)[0m  rollback transaction
+<<<<<<< HEAD
   [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
   [1m[35mSQL (0.4ms)[0m  INSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["first_name", "Jenny"], ["last_name", "Blum"], ["created_at", "2018-04-17 18:41:07.048293"], ["updated_at", "2018-04-17 18:41:07.048293"]]
   [1m[36m (2.8ms)[0m  [1mcommit transaction[0m
@@ -955,3 +956,5 @@ Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.2ms)
   [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("first_name", "last_name", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["first_name", "Daenerys"], ["last_name", "Targaryen"], ["created_at", "2018-04-17 18:41:07.595251"], ["updated_at", "2018-04-17 18:41:07.595251"]]
   [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
   [1m[35m (0.1ms)[0m  rollback transaction
+=======
+>>>>>>> 4ed82df89d2c9d7d9f2f416f3a302d4ec8434aa5
